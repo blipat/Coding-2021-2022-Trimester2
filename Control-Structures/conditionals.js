@@ -40,3 +40,9 @@ console.log(heightComparison);
 var x = 10;
 x+=1;
 console.log(x);
+
+var position = 0;
+position++;
+if (position > 200) {
+    position = 0;
+}

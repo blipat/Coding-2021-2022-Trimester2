@@ -26,6 +26,12 @@ else {
 
 //Exercise 2
 var time = new Date().getHours();
-if (time < 20) {
-    document.getElementById("demo").innerHTML = "Good day";
+if (time < 10) {
+    document.getElementById("demo").innerHTML = "Good morning";
+}
+else if (time < 20) {
+    document.getElementById("demo").innerHTML - "Good day";
+}
+else {
+    document.getElementById("demo").innerHTML = "Good night";
 }
